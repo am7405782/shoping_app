@@ -15,10 +15,12 @@ class OnBordingScreen extends StatelessWidget {
               Image.asset(
                 onBordingList[index].image!,
               ),
-              Text(
-                onBordingList[index].body!,
-                
-              ),
+              Text(onBordingList[index].body!,
+                  style: const TextStyle(
+                    fontSize: 16.0,
+                    fontWeight: FontWeight.normal,
+                    color: Colors.black,
+                  )),
             ],
           ),
         ),

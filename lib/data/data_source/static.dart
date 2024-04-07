@@ -20,4 +20,10 @@ List<OnBordingModel> onBordingList = [
     image: AppImageAsset.onBoardingImageThree,
     title: "Easy And Safe Paymnet",
   ),
+  OnBordingModel(
+    body:
+        "We Have a 100k Product , Choose \n Your Product From  Our \n E-commerce Shop",
+    image: AppImageAsset.onBoardingImageThree,
+    title: "Easy And Safe Paymnet",
+  ),
 ];
