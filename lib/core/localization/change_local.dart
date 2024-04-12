@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
-import 'package:shoping_app/core/constant/theam-data.dart';
+import 'package:shoping_app/core/constant/theam_data.dart';
 import 'package:shoping_app/core/services/service.dart';
 
 class LocaleController extends GetxController {
