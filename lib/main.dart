@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:shoping_app/core/localization/translation.dart';
+import 'package:shoping_app/route/route.dart';
 import 'package:shoping_app/view/pages/onbording_page.dart';
 
 void main() {
@@ -22,6 +23,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: const OnBordingScreen(),
+      getPages: getPages,
     );
   }
 }

@@ -4,26 +4,24 @@ import 'package:shoping_app/data/model/onbording_model.dart';
 
 List<OnBordingModel> onBordingList = [
   OnBordingModel(
-    body: "1".tr,
+    body:
+        "We Have a 100k Product , Choose \n Your Product From  Our \n E-commerce Shop",
     image: AppImageAsset.onBoardingImageOne,
-    title: "Easy And Safe Paymnet",
+    title: "Choose Product",
   ),
   OnBordingModel(
-    body:
-        "We Have a 100k Product , Choose \n Your Product From  Our \n E-commerce Shop",
+    body: "1".tr,
     image: AppImageAsset.onBoardingImageTwo,
-    title: "Easy And Safe Paymnet",
+    title: "1".tr,
   ),
   OnBordingModel(
-    body:
-        "We Have a 100k Product , Choose \n Your Product From  Our \n E-commerce Shop",
+    body: "1".tr,
     image: AppImageAsset.onBoardingImageThree,
-    title: "Easy And Safe Paymnet",
+    title: "1".tr,
   ),
   OnBordingModel(
-    body:
-        "We Have a 100k Product , Choose \n Your Product From  Our \n E-commerce Shop",
+    body: "1".tr,
     image: AppImageAsset.onBoardingImageThree,
-    title: "Easy And Safe Paymnet",
+    title: "1".tr,
   ),
 ];
