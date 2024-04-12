@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
+import 'package:get/get.dart';
+import 'package:shoping_app/core/localization/change_local.dart';
+import 'package:shoping_app/route/routsname.dart';
 import 'package:shoping_app/view/widgets/language_widgets/language_Button.dart';
 
-class LanguageBody extends StatelessWidget {
+class LanguageBody extends GetView<LocaleController> {
   const LanguageBody({
     super.key,
   });
@@ -22,11 +25,17 @@ class LanguageBody extends StatelessWidget {
           const Gap(10),
           LanguageButton(
             text: "En",
-            onTap: () {},
+            onTap: () {
+              controller.changeLocal("en");
+              Get.toNamed(AppRote.onbording);
+            },
           ),
           LanguageButton(
             text: "Ar",
-            onTap: () {},
+            onTap: () {
+                controller.changeLocal("ar");
+              Get.toNamed(AppRote.onbording);
+            },
           ),
         ],
       ),
