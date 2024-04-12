@@ -19,7 +19,7 @@ class LanguageBody extends GetView<LocaleController> {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Text(
-            "Choose Language",
+            "1".tr,
             style: Theme.of(context).textTheme.bodyLarge,
           ),
           const Gap(10),
@@ -33,7 +33,7 @@ class LanguageBody extends GetView<LocaleController> {
           LanguageButton(
             text: "Ar",
             onTap: () {
-                controller.changeLocal("ar");
+              controller.changeLocal("ar");
               Get.toNamed(AppRote.onbording);
             },
           ),
