@@ -20,9 +20,9 @@ class LanguageBody extends GetView<LocaleController> {
         children: [
           Text(
             "1".tr,
-            style: Theme.of(context).textTheme.bodyLarge,
+            style: Theme.of(context).textTheme.headline2,
           ),
-          const Gap(10),
+          const Gap(20),
           LanguageButton(
             text: "En",
             onTap: () {
