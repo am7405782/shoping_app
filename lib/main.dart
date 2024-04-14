@@ -23,16 +23,7 @@ class MyApp extends StatelessWidget {
       translations: MyTranslation(),
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      theme: ThemeData(
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-          useMaterial3: true,
-          textTheme: const TextTheme(
-            bodyLarge: TextStyle(
-              fontSize: 25,
-              fontWeight: FontWeight.normal,
-              fontFamily: "Cairo",
-            ),
-          )),
+      theme: controller.appTheme,
       home: const Language(),
       getPages: route,
     );
